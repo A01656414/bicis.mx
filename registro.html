@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="efectos.css" rel="stylesheet" type="text/css">
+        <script src="registro.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <center>
+            <br><br><br>
+            <p class="titulo18"> Registra tu bici para recibir una cotización </p>
+            <p> Es necesario llenar el formulario de contacto para poder recibir una cotización. </p>
+            <br>
+            <table border="3" width="80%">
+                <tr>
+                    <td colspan="2" align="center">
+                        <p> Los datos marcados con <span style="color: red"> * </span>
+                             son obligatorios </p>
+                    </td>
+                </tr>
+                <form name="forma"> <!--Etiqueta para crear un formulario,
+                    se le debe poner nombre al formulario -->
+                    <tr> <!-- Campos de tipo texto -->
+                        <td>
+                            <p> Indica la marca </p>
+                        </td>
+                        <td align="center">
+                            <input name="marca" type="text" class="campo" onclick="campo_marca()">
+                            <span style="color: red"> * </span>
+                        </td>
+                    </tr>
+                    <tr> <!-- Campos de tipo texto -->
+                        <td>
+                            <p> Indica el modelo </p>
+                        </td>
+                        <td align="center">
+                            <input name="modelo" type="text" class="campo" onclick="campo_modelo()">
+                            <span style="color: red"> * </span>
+                        </td>
+                    </tr>
+                    <tr> <!-- Campos de tipo texto -->
+                        <td>
+                            <p> Indica el año </p>
+                        </td>
+                        <td align="center">
+                            <input name="anno" type="number" class="campo"  onclick="campo_anno()">
+                            <span style="color: red"> * </span>
+                        </td>
+                    </tr>
+                    <tr> <!-- Campos de tipo texto -->
+                        <td>
+                            <p> Indica la condición </p>
+                        </td>
+                        <td align="center">
+                            <input name="condición" type="text" class="campo">
+                            <span style="color: white"> * </span>
+                        </td>
+                    </tr>
+                    <tr> <!-- Campos de tipo texto -->
+                        <td>
+                            <p> Indica el precio deseado </p>
+                        </td>
+                        <td align="center">
+                            <input name="precio" type="number" class="campo">
+                            <span style="color: white"> * </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3">
+                            <table width="100%">
+                                <tr align="center">
+                                    <td>
+                                        <input name="b_ejecuta" type="button"
+                                        class="boton" value="enviar" onclick="ejecutar()">
+                                    </td>
+                                    <td>
+                                        <input name="b_reset" type="reset"
+                                        class="boton" value="borrar" style="
+                                        background: red">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </center>
+    </body>
+</html>

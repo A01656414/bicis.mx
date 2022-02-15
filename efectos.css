@@ -1,0 +1,54 @@
+p { /* Selector de la etiqueta "p" */
+	font-size:14pt;
+    color: black;
+}
+
+
+
+.titulo24 {
+	font-size: 24pt;
+	background: gold;
+	color: black;
+	width: 90%;
+	border-radius: 15px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.titulo18 {
+	font_size: 18pt;
+	background: orange;
+	color: black;
+	width: 90%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.titulo16 {
+	font_size: 16pt;
+	background: white;
+	color: black;
+	width: 90%;
+	border-radius: 5px;
+	font-family: courier;
+}
+
+.boton{
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background:  black;
+	width: 200px;
+	height: 70px;
+	border-radius: 20px;
+}
+
+.boton:hover{
+	color: black;
+	background: white;
+}
+
+img {
+	border-radius: 15px;
+}
